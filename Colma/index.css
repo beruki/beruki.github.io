@@ -1,0 +1,339 @@
+* {
+    margin: 0px;
+  }
+
+html {
+    font-family: 'Avenir Next LT Pro', sans-serif;
+    max-width: 1280px;
+    margin: auto;
+}
+
+
+a:hover {
+    color: #4400ff;
+}
+
+.main-content {
+    position: relative;
+    top: 64px;
+}
+
+.image-container {
+    overflow: hidden;
+}
+
+.center {
+    text-align: center;
+}
+
+.center h2 {
+    display: inline;
+}
+
+
+/* Navigation */
+
+header {
+    position: fixed;
+    width: 100%;
+    height: 64px;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    background-color: white;
+}
+
+header .content {
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+}
+
+.desktop {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav li {
+    list-style: none;
+    padding-left: 16px;
+}
+
+img .logo {
+    height: 32px;
+}
+
+.logo-text {
+    text-transform: uppercase;
+    color: gray;
+    font-size: 20px;
+}
+
+.logo-text .colmar {
+    color: black;
+}
+
+@media only screen and (min-width: 481px) {
+    .mobile {
+        display: none;
+    }
+}
+
+
+/* Banner section */
+
+.banner-section {
+    background-color: #cfcfcf;
+    padding: 32px 24px;
+    display: flex;
+}
+
+.banner-image {
+    max-width: 60%;
+}
+
+.banner-image img {
+    width: 100%;
+    height: auto;
+}
+
+.banner-content {
+    padding: 0 24px;
+    margin: auto;
+}
+
+.banner-content h1 {
+    display: inline;
+}
+
+.button {
+    background-color: #303030;
+    padding: 8px;
+}
+
+.button :hover {
+    color: #606060;
+    transition: color ease-in 300ms;
+}
+
+.button p {
+    text-align: center;
+    line-height: 8px;
+    color: #efefef;
+}
+
+
+/* Information section */
+
+#information {
+    display: flex;
+    padding: 32px 0 0 24px;
+}
+
+.information-main {
+    width: 60%;
+    padding-right: 24px;
+    border-right: 1px solid #cfcfcf;
+}
+
+.information-main img {
+    width: 100%;
+    height: auto;
+    padding-bottom: 32px;
+}
+
+.information-main h2 {
+    display: inline;
+    font-size: 20px;
+}
+
+.info-main-content {
+    padding-top: 8px;
+    display: inline-block;
+}
+
+.information-credit {
+    font-size: 8px;
+    padding-bottom: 20px;
+}
+
+.information-boxes {
+    width: 40%;
+}
+
+.image-container {
+    display: flex;
+    margin-bottom: 16px;
+    padding-left: 24px;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.info-content {
+    padding: 0 16px;
+}
+
+.info-content p {
+    font-size: 16px;
+}
+
+.info-content h4 {
+    display: inline;
+}
+
+.info-content a {
+    color: rgb(77, 77, 255);
+}
+
+.info-content a:hover {
+    color: #000;
+}
+.guest-container {
+    display: flex;
+    background-color: #cfcfcf;
+    padding: 16px 0 16px 24px;
+}
+
+.content-image {
+    max-width: 35%;
+}
+
+#content-image {
+    max-width: 100%;
+}
+
+.content-image-mobile {
+    display: none;
+}
+
+.guest-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Courses section */
+
+.courses {
+    background-color: #efefef;
+    max-width: 100%;
+    padding: 32px 70px;
+}
+
+.course-boxes {
+    display: flex;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.course-container {
+    display: block;
+    width: 32%;
+    background-color: #fff;
+    margin-bottom: 16px;
+}
+
+.course-image {
+    max-width: 100%;
+    padding-bottom: 8px;
+}
+
+.course-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.course-text {
+    padding: 0 16px 8px 16px;
+}
+
+.course-text h4 {
+    display: inline;
+}
+
+.course-text p {
+    font-size: 12px;
+    margin-top: 8px;
+}
+
+/* Thesis section */
+
+.thesis {
+    max-width: 100%;
+    padding: 32px 0 32px 24px;
+}
+
+.thesis .center {
+    margin-bottom: 32px;
+}
+
+.thesis h4 {
+    display: inline;
+}
+
+.thesis p {
+    font-size: 12px;
+    margin-top: 8px;
+}
+
+.content-box {
+    display: flex;
+}
+
+.video-container {
+    width: 60%;
+    margin-right: 24px;
+}
+
+.video-player {
+    margin-bottom: 24px;
+}
+
+.video-player video{
+    width: 100%;
+    height: auto;
+}
+
+.thesis .image-container {
+    align-items: center;
+}
+
+.fisma-container {
+    display: flex;
+    background-color: #cfcfcf;
+    padding: 16px 0 16px 16px;
+    margin-bottom: 16px;
+    align-items: center;
+}
+
+.fisma-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    font-size: 0.65rem;
+    font-family: Arial, Helvetica, sans-serif;    justify-content: space-between;
+    border-top: 0.5px solid #cfcfcf;
+    position: relative;
+    top: 64px;
+    padding: 16px 24px 0;
+}
+
+.footer-links {
+    float: right;
+}
+
+
+
